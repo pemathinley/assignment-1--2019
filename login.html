@@ -1,0 +1,66 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+<body>
+    
+    <script>
+    
+     function myValidation()
+            {
+                
+                var name = document.forms["MyForm"]["user"].value;
+                var password = document.forms["MyForm"]["pass"].value;
+               
+                
+                var  flag = true;
+               
+                
+                if(name == "")
+                    {
+                        alert("name cannot be empty");
+                        flag = false;
+                    }
+                
+                if(password == "")
+                    {
+                        alert("password cannot be empty");
+                        flag = false;
+                    }
+                
+              
+                
+                
+                return flag;
+                
+                
+            }
+    
+    </script>
+
+        
+         <div class="nav">
+             <a href="#">Home</a>
+            <a href="#">Course</a>
+            <a href="#">Faculties</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        
+        </div>
+<div class="loginbox">
+<img src="bus.svg" class="logo">
+    
+    <h1>Login </h1>
+<form name="MyForm" action="#" method ="post" onsubmit="return myValidation()">
+<p>Username</p>
+<input type="text" name="user" placeholder="Enter Username">
+<p> Password</p>
+<input type="text" name="pass" placeholder="Enter Username">
+<input type="submit" name="" value="Login">
+    <a href="#">Forgot your password?</a><br>
+    </form>
+    </div>
+    
+</body>
+</html>
+
