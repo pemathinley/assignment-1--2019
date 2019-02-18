@@ -1,0 +1,121 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: gainsboro;
+}
+nav div{
+    float: left;
+}
+nav{
+    width: 80%;
+    background-color: burlywood;
+    float: right;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+nav ul .top{
+    float:left;
+    padding-right: 3px;
+}
+
+.usernav{
+    float:left;
+    padding-left:30px;
+    color: white;
+    font-size: 28px;
+}
+ul li i{
+    padding-right: 8px;
+    text-decoration: none;
+}
+ul li button{
+    color: black;
+    background-color: antiquewhite;
+    height: 30px;
+    border-radius: 5px;
+}
+.leftnav{
+    float: left;
+    width: 20%;
+    height: 700px;
+    background-color: cornsilk;
+}
+section .sec1{
+    background-color: burlywood;
+    height: 90px;
+    width: 100%;
+    color: lightgrey;
+    
+}
+section div .busadmin{
+    padding: 40px;
+    font-size: 20px;
+}
+section div i{
+    padding-top: 20px; 
+}
+section div .login{
+    padding-top: 80px;
+    font-size: 20px;
+    padding-left: 10px;
+    color:lightgray;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+section div i{
+    padding-top: 30px;
+    padding-right: 5px;
+    color:black;
+}
+section ul{
+    list-style: none;
+    padding: 25px;
+    font-size: 20px;
+    padding-left: 30px;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: black;
+    padding-left: 40px;
+}
+section ul li{
+    padding:10px;
+}
+.sec2{
+    margin: 30px 30px 0px 30px;
+    height: 580px;
+    width: 75%;
+    background-color: white;
+    float : left;
+}
+section .form{
+    padding: 80px;
+    margin:auto;
+    
+}
+
+section div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-right: 60%; 
+}
+section div input{
+    width: 300px;
+    height: 25px;
+}
+a{
+    text-decoration:none;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color:black;
+}
+a:hover{
+    color:coral;
+}
